@@ -1,11 +1,11 @@
 ﻿namespace Utilities;
 
-public static class Console
+public static class ConsoleHelper
 {
     /// <summary>
     /// Used for Console.WriteColored()
     /// </summary>
-    public static enum Color
+    public enum Color
     {
         // Console colors
         White, // Default value, keep it at the first position for GetColorEnum
