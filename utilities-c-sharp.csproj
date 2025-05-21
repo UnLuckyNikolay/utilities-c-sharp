@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>utilities_c_sharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
