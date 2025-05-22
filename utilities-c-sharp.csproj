@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>UnLuckyNikolay.UtilitiesCSharp</AssemblyName>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>utilities_c_sharp</RootNamespace>
+    <RootNamespace>UnLuckyNikolay.UtilitiesCSharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
