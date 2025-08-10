@@ -1,12 +1,12 @@
 namespace Utilities;
 
-public class Shuffle
+public class ShuffleUtilities
 {
     /// <summary>
-    /// Shuffles array in place. 
+    /// Shuffles array in place. Uses Fisher–Yates algorithm.
     /// Complexity - O(n).
     /// </summary>
-    public static void Fisher_Yates<T>(T[] array)
+    public static void Shuffle<T>(T[] array)
     {
         Random rng = new();
         int n = array.Length;
